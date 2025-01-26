@@ -1,5 +1,5 @@
 #!/bin/bash
-dnf install gtkmm30 gtksourceview4 gspell libxml++ fribidi sqlite pangomm curl uchardet fmt spdlog vte291
+dnf -y install gtkmm30 gtksourceview4 gspell libxml++ fribidi sqlite pangomm curl uchardet fmt spdlog vte291
 wget https://github.com/bitfox/bin/raw/refs/heads/main/cherrytree-1.2.0/cherrytree -O /usr/local/sbin/cherrytree-1.2.0
 chown root:root /usr/local/sbin/cherrytree-1.2.0
 chmod 755 /usr/local/sbin/cherrytree-1.2.0
